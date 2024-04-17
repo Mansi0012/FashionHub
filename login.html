@@ -1,0 +1,37 @@
+<!-- Sign In Modal -->
+<div class="modal fade" id="signInModal" tabindex="-1" aria-labelledby="signInModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title" id="signInModalLabel">Sign In</h3>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<!-- ********** sign-in form here************* -->
+				
+				<div class="container" style="margin-top: 10px;">
+					<div class="login-form">
+						<h3>LOGIN OR SIGNUP</h3>
+						<form action="login.page" method="POST">
+							<div class="form-group">
+								<label for="username">Username:</label>
+								<input type="text" id="username" name="username" required><br>
+							</div><br>
+							<div class="form-group">
+								<label for="password">Password:</label>
+								<input type="password" id="password" name="password" required>
+							</div>
+							<button type="submit">Login</button>
+						</form>
+						<p>OR CONTINUE WITH:</p>
+						<div class="social-login">
+							<a href="https://www.facebook.com" class="facebook-login bg-primary"style="color:  black; text-decoration:none;">Login with Facebook</a>
+							<a href="mailto:fashionHub@email.com" class="email-login bg-warning"style="color: red ; text-decoration:none;">Login with Email</a>
+							<a href="tel:+1234567890" class="phone-login bg-success"style="color:  hotpink; text-decoration:none;">Login with Phone Number</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
